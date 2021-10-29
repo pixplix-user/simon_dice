@@ -1,0 +1,6 @@
+{
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
