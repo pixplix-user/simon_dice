@@ -31,8 +31,6 @@ CREATE TABLE `games` (
 
 /*Data for the table `games` */
 
-insert  into `games`(`id`,`userid`,`record`,`nivel`,`fecha`) values (14,11,600,1,'2021-10-29 21:18:24'),(15,11,700,2,'2021-10-29 21:49:11'),(16,11,3000,5,'2021-10-29 21:49:30'),(17,11,600,2,'2021-10-13 21:49:40');
-
 /*Table structure for table `users` */
 
 DROP TABLE IF EXISTS `users`;
@@ -45,8 +43,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `users` */
-
-insert  into `users`(`id`,`sessionid`,`nombres`) values (11,'81122m056a9ot9637055o7vtsd','fernei es gei');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
